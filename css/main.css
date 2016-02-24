@@ -1,0 +1,61 @@
+html, body, #background { 
+    height: 100%;
+    color: #444;
+    text-shadow: 1px 1px 1px white;
+}
+
+#background {
+    display: none;
+    width: 100%;
+    background: url(../img/background.jpg); 
+    background-size: cover; 
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.container {
+    z-index: 10;
+}
+
+.friends {
+    max-height: 40em;
+    overflow: auto;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+ul li label span {
+    cursor: pointer;
+}
+
+ul li label span:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+.list h3 {
+    background-repeat: no-repeat;
+    text-indent: 25px;
+}
+
+.groom.list h3 {
+    text-indent: 20px;
+    background-image:url(../img/groom.svg);
+}
+
+.bride.list h3 {
+    background-image:url(../img/bride.svg);
+}
+
+.common.list h3 {
+    background-image:url(../img/common.svg);
+}
+
+.discuss.list h3 {
+    background-image:url(../img/discuss.svg);
+    text-indent: 30px;
+}
